@@ -1,0 +1,8 @@
+pandas
+pydantic
+sentence-transformers
+chromadb
+fastapi
+uvicorn
+google-generativeai
+# Add other libraries later

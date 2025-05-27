@@ -1,0 +1,59 @@
+.aider*
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*egg-info/
+*.egg
+venv/
+env/
+*.venv/
+.env
+pip-wheel-metadata/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# FastAPI / Uvicorn
+# No specific common ignores beyond general Python ones,
+# unless you have uvicorn log files not covered by *.log
+
+# ChromaDB
+backend/chroma_db_store/
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.tsbuildinfo
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.bak
+
+# Document files (often better stored elsewhere or if large)
+*.docx
+*.pdf
